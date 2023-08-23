@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Início do formulário -->
+    <form class="form" method="post" action="cadfuncio.php">
+
+        <div class="card">
+            <div class="card-top">
+                <img class="imglogin" src=LogoD.png alt="">
+                <figcaption>DoAção</figcaption>
+                <h2 class="title">Cadastramento de Funcionário</h2>
+            </div>
+            <!-- Campo do nome e css de classe "campo" -->
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" class="nome" name="nome" id="nome" required>
+            </div>
+            
+            <div class="campo">
+                <label for="cpf"><strong>CPF</strong></label>
+                <input type="cpf" class="cpf" name="cpf" id="cpf" required>
+            </div>
+            <div class="campo">
+                <label for="telefone"><strong>Telefone</strong></label>
+                <input type="telefone" class="telefone" name="telefone" id="telefone" required>
+            </div>
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" class="email" name="email" id="email" required>
+        </div>
+        <!-- Campo de senha com css de classe "campo" -->
+        <div class="campo">
+            <label for="pass"><strong>Senha: </strong></label>
+            <input name="password" type="password" class="formbutton" id="senha" required>
+        </div>
+
+        <div class="campo btn">
+        <button name="Submit" type="submit" class="formobjects" value="Cadastrar">Cadastrar</button> 
+        <a href="loginfun.html" class="login">Login</a>
+           
+        </div>
+    </div>
+                
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Um site onde voce pode fazer doação, receber e ser um polo">
+    <title>site doacao</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div class="cabecalho"></div>
+
+    <header>    
+        <div class="logo">
+            <img src="dlogo.png" alt="Logo do site Doação" ><!--Imagem logo-->
+           <figcaption>DoAção</figcaption><!--escrita embaixo do logo-->
+        </div>
+        
+        <nav ><!--Isso seria o cabeçalho da tela principal-->
+            <l1>
+                <a href="#">Inicio</a>
+            </l1>
+
+            <l1>
+            <a href="#">Doar</a>
+            </l1>
+            
+            <l1>
+            <a href="sistema.php">Pedir Doação</a>
+            </l1>
+
+            <l1>
+            <a href="#">Polos</a>
+            </l1>
+
+            <l1>
+            <a href="#">Quem Somos</a>
+            </l1>
+        </nav>
+
+        <div class="button-enter"><!--Botões de entrar e registrar do cabeçalho-->
+            <a href="login.html">Entrar</a><!--Botões de entrar que redireciona o usuario para o login.html-->
+            <a href="cadastramento.html"><button>Registre-se</button></a><!--Botões de registrar que redireciona o usuario para o cadastro.html-->
+        </div>
+    </header>
+    <!--Meio do formulario se inicia aqui-->
+    <div class="container">
+        <div class="box">
+   <main class="conteudo">
+        <section class="conteudo-principal">
+            <div clas="conteudo-principal-escrito">
+                <form>
+                <label class="escategoria">Escolha a categoria:</label>
+                <select id="categoria">
+                <option selected disabled value="">Selecionar</option>
+                <option>Roupa</option>
+                <option>Eletrodoméstico</option>
+                <option>Alimento</option>
+                </select>
+            </form>
+            </div>
+            
+            <a class="titu">Título:<input type="text"  bgcolor: "black" ;></input></a>
+            <p2 class="conteudo-p">Descrição:<input type="text" ></input></p2>
+        </section>
+
+        <section class="conteudo-secundario">
+            <h4 class="conteudo-secundario-titulo">Adicionar imagens:</h4>
+            <div class="button-adicionar">
+            <button type="button"> <img src="adcimagem.png" height="100" width="100"></button>
+            </div>
+            <div class="button-finalizar">
+            <button>Finalizar</button>
+            </div>
+        </section>
+
+    </main>
+    </div>
+    </div>
+    <!--Rodapé da tela principal-->
+    <footer class="final">
+        <div class="foorter-container">
+        <div class="card-foorter">
+        <h1>REDES SOCIAIS</h1>
+        <a href="#" class="redes">Fale conosco</a>
+        <a href="https://www.facebook.com/" class="redes">Facebook</a><!--Redireciona o usuário para o facebook-->
+        <a href="https://www.instagram.com/" class="redes">Instagram</a><!--Redireciona o usuario para o instagram-->
+        <a href="https://www.youtube.com/" class="redes">Youtube</a><!--redireciona o usuario para o youtube-->
+        </div>
+    </footer> 
+</body>
+</html>

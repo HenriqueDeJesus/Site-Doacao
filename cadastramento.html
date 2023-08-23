@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="cadastro.css" media="screen">
+    
+    <title>Document</title>
+</head>
+<body>
+    <!-- Início do formulário -->
+    <form class="form" method="post" action="cadastro.php">
+
+        <div class="card">
+            <div class="card-top">
+                <img class="imglogin" src=LogoD.png alt="">
+                <figcaption>DoAção</figcaption>
+                <h2 class="title">Cadastro</h2>
+            </div>
+            <!-- Campo do nome e css de classe "campo" -->
+            <div class="campo">
+                <label><strong>Dados Pessoais</strong></label>
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" class="nome" name="nome" id="nome" required>
+            </div>
+
+            <!-- Campo do sobrenome e css de classe "campo" -->
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" class="sobrenome" name="sobrenome" id="sobrenome" required>
+            </div>
+        <!-- Campo do cpf com css de class "campo" -->
+        <div class="campo">
+            <label for="cpf"><strong>CPF</strong></label>
+            <input type="text" class="cpf" name="cpf" size="14" maxlength="14" placeholder="Ex.: xxx.xxx.xxx-xx" required>
+        </div>
+        <!-- Campo de Rua com css de classe "campo" -->
+        <div class="campo">
+            <label><strong>Dados de Endereço</strong></label>
+            <label for="rua"><strong>Rua: </strong></label>
+            <input type="text" class="rua" name="rua" required>
+        </div>
+        <!-- Campo de Numero com css de classe "campo" -->
+        <div class="campo">
+            <label for="numero"><strong>Numero: </strong></label>
+            <input type="text" class="numero" name="numero" size="4" required>
+        </div>
+        <!-- Campo de Bairro com css de classe "campo" -->
+        <div class="campo">
+            <label for="bairro"><strong>Bairro: </strong> </label>
+            <input type="text" class="bairro" name="bairro" required>
+        </div>
+        <!-- Campo de estado com css de classe "campo" -->
+        <div class="campo">
+            <label for="user_estado"><strong>Estado</strong></label>
+            <select id="user_estado" type="text" class="user_estado" name="user_estado" required>
+              <option selected disabled value="">Selecione</option>
+              <option value="Acre" type="text" class="user_estado" name="user_estado">Acre</option> 
+              <option value="Alagoas" type="text" class="user_estado" name="user_estado">Alagoas</option> 
+              <option value="Amazonas" type="text" class="user_estado" name="user_estado">Amazonas</option> 
+              <option value="Amapá" type="text" class="user_estado" name="user_estado">Amapá</option> 
+              <option value="Bahia" type="text" class="user_estado" name="user_estado">Bahia</option> 
+              <option value="Ceará" type="text" class="user_estado" name="user_estado">Ceará</option> 
+              <option value="Distrito Federal" type="text" class="user_estado" name="user_estado">Distrito Federal</option> 
+              <option value="Espírito Santo" type="text" class="user_estado" name="user_estado">Espírito Santo</option> 
+              <option value="Goiás" type="text" class="user_estado" name="user_estado">Goiás</option> 
+              <option value="Maranhão" type="text" class="user_estado" name="user_estado">Maranhão</option> 
+              <option value="Mato Grosso" type="text" class="user_estado" name="user_estado">Mato Grosso</option> 
+              <option value="Mato Grosso do Sul" type="text" class="user_estado" name="user_estado">Mato Grosso do Sul</option> 
+              <option value="Minas Gerais" type="text" class="user_estado" name="user_estado">Minas Gerais</option> 
+              <option value="Pará" type="text" class="user_estado" name="user_estado">Pará</option> 
+              <option value="Paraíba" type="text" class="user_estado" name="user_estado">Paraíba</option> 
+              <option value="Paraná" type="text" class="user_estado" name="user_estado">Paraná</option> 
+              <option value="Pernambuco" type="text" class="user_estado" name="user_estado">Pernambuco</option> 
+              <option value="Piauí" type="text" class="user_estado" name="user_estado">Piauí</option> 
+              <option value="Rio de janeiro" type="text" class="user_estado" name="user_estado">Rio de Janeiro</option> 
+              <option value="Rio Grande do Norte" type="text" class="user_estado" name="user_estado">Rio Grande do Norte</option> 
+              <option value="Rondônia" type="text" class="user_estado" name="user_estado">Rondônia</option> 
+              <option value="Rio Grande do Sul" type="text" class="user_estado" name="user_estado">Rio Grande do Sul</option> 
+              <option value="Roraima" type="text" class="user_estado" name="user_estado">Roraima</option> 
+              <option value="Santa Catarina" type="text" class="user_estado" name="user_estado">Santa Catarina</option> 
+              <option value="Sergipe" type="text" class="user_estado" name="user_estado">Sergipe</option> 
+              <option value="São Paulo" type="text" class="user_estado" name="user_estado">São Paulo</option> 
+              <option value="Tocantins" type="text" class="user_estado" name="user_estado">Tocantins</option> 
+            </select>
+        </div>
+        <!-- Campo de cidade com css de classe "campo" -->
+        <div class="campo">
+            <label for="cidade"><strong>Cidade: </strong></label>
+            <input type="text" class="cidade" name="cidade" required>
+        </div>
+        <!-- Campo de CEP com css de classe "campo" -->
+        <div class="campo">
+            <label for="cep"><strong>CEP: </strong></label>
+            <input type="text" class="cep" name="cep" size="8" maxlength="8" placeholder="Ex.: xxxxx-xx" required> 
+        </div>
+        <!-- Campo de Email com css de classe "campo" -->
+        <div class="campo">
+            <label><strong>Dados de login</strong></label>
+            <label for="email"><strong>Email</strong></label>
+            <input type="email" class="email" name="email" id="email" required>
+        </div>
+        <!-- Campo de senha com css de classe "campo" -->
+        <div class="campo">
+            <label for="pass"><strong>Senha: </strong></label>
+            <input type="password" class="senha" name="pass" required>
+        </div>
+
+        <div class="campo btn">
+      <button onclick="myFunction()" type="submit">Cadastrar</button> 
+         
+        <a href="login.html" class="login">Login</a>
+        <a href="index.html" class="retornar">Retornar</a>   
+        </div>
+    </div>
+                
+   </form> 
+
+<script>
+function myFunction() {
+  alert("Usuário cadastrado com sucesso");
+}
+</script>
+
+    
+</body>
+</html>

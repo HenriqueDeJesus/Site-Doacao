@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Doação</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <!-- Início do formulário -->
+    <form method="post" action="loginfun.php" class="form">
+        <div class="card">
+            <div class="card-top">
+                <img class="imglogin" src=LogoD.png alt=""><!-- imagem Logo -->
+                <figcaption>DoAção</figcaption>
+                <h2 class="title">Login do Funcionário</h2> <!-- Titulo embaixo da imagem-->
+            </div>
+            <!--Campo do email e css de classe "card-group"-->
+            <div class="card-group">
+                <label>Email</label>
+                <input type="text" name="txt_usuario" placeholder="Digite seu email">
+            </div>
+            <!--Campo do senha e css de classe "card-group"-->
+            <div class="card-group">
+                <label>Senha</label>
+                <input type="password" name="txt_senha" placeholder="Digite sua senha">
+            </div>
+
+            <div class="card-group btn"><!--Campo classe "card-group btn" onde faz o efeito do mouse passando por cima do botão aceesar fazendo ele ficar cinza-->
+                <button type="submit">ACESSAR</button>
+                <a href="cadasFuncio.html" class="cadastrar">Cadastrar</a><!--links que redireciona o usuario para o cadastro-->
+            </div>
+        </div>
+    </form>
+
+</body>
+</html>
