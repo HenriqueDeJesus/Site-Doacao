@@ -1,0 +1,28 @@
+Este projeto foi desenvolvido na Fatec, onde o grupo escolheu o tema Doação para a realização da criação de um site 
+relacionado a doação.
+
+O Banco de Dados que está aqui tem umas tabelas que não tem nada haver com o projeto mais isso eu irei arrumar
+
+Para o desenvolvimento desse site foi utilizado a linguagem de programação PHP, HTML, CSS e JavaScript
+E para o Banco de Dados foi utilizado MySql Workbench para a criação das tabelas e consultas, mas na 
+parte de hospedagem do Banco de Dados foi utilizado o phpMyAdmin.
+
+O site foi hospedado no webhost000.
+
+O link do site:
+https://heryherrnandes.000webhostapp.com/Doacao/
+
+Link do sistema do funcionário que trabalha:
+https://heryherrnandes.000webhostapp.com/Doacao/funcionario/loginfun.html
+
+
+Logo abaixo segue um resumo da proposta da criação desse site:
+
+Este projeto tem como tema o desenvolvimento de um aplicativo para doação de itens,com o objetivo de solucionar
+a falta de acessibilidade de pessoas carentes a polos de doações e a carência de plataformas que deem informações a respeito. 
+A justificativa para a criação do aplicativo surge diante dos problemas sociais e econômicos do país, que foram agravados pela
+pandemia. O site visa auxiliar a população em vulnerabilidade social/econômica com o recebimento de itens doados por pessoas
+que desejam se desfazer deles, criando assim uma “corrente de doações”. O projeto mostra os desafios que uma entidade desse
+nicho tem para rentabilizar e manter o projeto saudável financeiramente, a estratégia abordada nesse ponto foi a de se tornar
+uma ONG e angariar parcerias com as organizações já consolidadas no ramo de doação, assim como com empresas interessadas.
+ 
